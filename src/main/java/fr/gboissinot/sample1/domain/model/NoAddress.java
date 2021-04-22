@@ -21,7 +21,7 @@ class NoAddress implements Address {
     }
 
     @Override
-    public String zipCode() {
+    public ZipCode zipCode() {
         throw new UnsupportedOperationException();
     }
 

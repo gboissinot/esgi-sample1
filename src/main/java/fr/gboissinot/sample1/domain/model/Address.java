@@ -9,7 +9,7 @@ public interface Address {
 
     String street();
 
-    String zipCode();
+    ZipCode zipCode();
 
     boolean isAddress();
 }

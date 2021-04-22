@@ -10,9 +10,9 @@ class DefaultAddress implements Address {
     private final String country;
     private final String city;
     private final String street;
-    private final String zipCode;
+    private final ZipCode zipCode;
 
-    DefaultAddress(String country, String city, String street, String zipCode) {
+    DefaultAddress(String country, String city, String street, ZipCode zipCode) {
         this.country = country;
         this.city = city;
         this.street = street;
@@ -35,7 +35,7 @@ class DefaultAddress implements Address {
     }
 
     @Override
-    public String zipCode() {
+    public ZipCode zipCode() {
         return zipCode;
     }
 

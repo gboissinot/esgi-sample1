@@ -35,6 +35,10 @@ public class Client {
         this.address = newAddress;
     }
 
+    public ClientId id() {
+        return clientId;
+    }
+
     public String lastname() {
         return lastname;
     }

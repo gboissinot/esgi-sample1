@@ -10,7 +10,7 @@ public class AddressFactory {
     }
 
     public static Address of(String country, String city, String street, String zipCode) {
-        return new DefaultAddress(country, city, street, zipCode);
+        return new DefaultAddress(country, city, street, ZipCode.of(zipCode));
     }
 
     public static Address noAddress() {
